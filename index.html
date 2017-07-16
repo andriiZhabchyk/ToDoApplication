@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do! list</title>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <div id="container">
+        <div id="toDoInput">
+            <div class="container">
+                <i class="fa fa-check-circle fa-5x" aria-hidden="true"><span> ToDo!</span></i> </br>
+                <input type="text" id="toDoText" class="toDoText" placeholder="Add new ToDo!"/>
+                <input type="button" class="btn" value="Add ToDo" data-toggle="tooltip" data-placement="top" title="Add toDo!" />
+                <div class="btnTag" onclick="getData()">
+                    <i class="fa fa-plus" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Add tags"></i>
+                </div>
+            </div>
+            <div class="container tagWrap"></div>
+        </div>
+        <div id="toDoList"></div>
+    </div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+    <script type="text/javascript" src="assets/js/requestJQuery.js"></script>
+    <script type="text/javascript" src="assets/js/requestWebSocket.js"></script>
+    <script type="text/javascript" src="assets/js/tags.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

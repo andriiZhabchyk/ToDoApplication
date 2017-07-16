@@ -1,0 +1,143 @@
+#container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#toDoInput {
+    width: 100%;
+    padding: 10px 0;
+}
+
+#toDoList {
+    width: 100%;
+}
+
+.toDoItem {
+    max-width: 940px;
+    height: 100%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: -2px 2px 10px #d6d6d6;
+    font-family: 'Arial';
+}
+
+.toDoText {
+    border-radius: 10px;
+    border: none;
+    height: 16px;
+    width: 300px;
+    padding: 5px 5px;
+    margin: 25px 50px;
+}
+
+.toDoText:focus {
+    box-shadow: 0 0 10px #6dc700;
+}
+
+.btn {
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #64c200;
+    font-family: 'Arial';
+    color: white;
+    font-weight: bold;
+    box-shadow: -2px 2px 0 #959595;
+}
+
+.btn:hover {
+    background: #478d00;
+    border: none;
+}
+
+.btnTag {
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #64c200;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    box-shadow: -2px 2px 0 #959595;
+    float: right;
+    margin-right: 370px;
+
+    opacity: 0.9;
+}
+
+.btnTag:hover {
+    background: #478d00;
+    border: none;
+}
+
+.decoration {
+    text-decoration: line-through;
+    color: #494949;
+
+    opacity: 1;
+}
+
+span {
+    width: 100%;
+}
+
+.fa-trash-o {
+    color: #1d1d1d;
+    float: right;
+}
+
+.fa-trash-o:hover {
+    color: #d01a13;
+}
+
+#toDoInput {
+    background: #f1d1a2;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px #d6d6d6;
+}
+
+.fa-check-circle {
+    color: white;
+    margin-left: 50px;
+}
+
+span {
+    font-family: "Adobe Arabic";
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+}
+
+.tag {
+    padding: 3px 3px;
+    max-width: 50px;
+    max-height: 50px;
+    background: #494949;
+    opacity: 0.5;
+    color: white;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.tagWrap {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.fa-plus {
+    margin: 5px 5px;
+}
+
+.checkTag {
+    background: darkcyan;
+}
+
